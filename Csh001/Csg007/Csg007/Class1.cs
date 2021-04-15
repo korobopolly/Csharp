@@ -10,15 +10,7 @@ namespace Csg007
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i < 10; i++)
-            {
-                if (i%2==0)
-                {
-                    continue;
-                }
-                Console.WriteLine(i);
-
-            }
+            Console.WriteLine('가');
             Console.WriteLine("미디어소프트웨어학과,4학년,윈도우프로그래밍[002],20161449,이준성");
         }
     }

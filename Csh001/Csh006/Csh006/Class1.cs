@@ -123,7 +123,7 @@ namespace Csh006
                     Console.WriteLine("홀수입니다!");
                     break;
             }
-            
+            */
 
             Console.Write("이번 달은 몇 월인가요: ");
             int input = int.Parse(Console.ReadLine());
@@ -154,12 +154,12 @@ namespace Csh006
                     Console.WriteLine("잘못된 월을 입력하였습니다.");
                     break;
             }
-            */
-
+            
+            /*
             string input = Console.ReadLine();
             int number = int.Parse(input);
 
-            Console.WriteLine(number > 0 ? "자연수입니다." : "자연수가 아닙니다.");
+            Console.WriteLine(number > 0 ? "자연수입니다." : "자연수가 아닙니다.");*/
 
         }
     }
