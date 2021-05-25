@@ -17,7 +17,6 @@ namespace Csh014
         class Dog : Animal
         {
             public string Color { get; set; }
-
             public void Bark() { Console.WriteLine("왈왈 짖습니다."); }
         }
 
@@ -42,7 +41,7 @@ namespace Csh014
                 if(item is Dog) { ((Dog)item).Bark();}
                 if(item is Cat) { ((Cat)item).Meow();}
 
-                /* 변수 as 클래스
+                /*//변수 as 클래스
                 var dog=item as Dog;
                 if (dog != null) {dog.Bark();}
 
